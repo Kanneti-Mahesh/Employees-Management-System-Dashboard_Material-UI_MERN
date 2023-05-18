@@ -14,3 +14,9 @@ step:3 (backend-side)
 # go back or change dir to cd..
 # type on terminal "npm install or npm i" to install backend packages
 # npm run server to run server backend and mongoDB...
+
+
+
+
+# NOTE: If we want to run both frontend and backend concurrently
+# type "npm run both" command on terminal...
