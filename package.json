@@ -6,7 +6,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "both":"concurrently \"npm run client"\ \"npm run server"\ "
   },
   "author": "Mahesh",
   "license": "ISC",
